@@ -2,17 +2,18 @@ import React from "react";
 import Google from "../assets/img/google.webp";
 import Microsoft from "../assets/img/microsoft.webp";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function LoginForm() {
 
 
-   const navigate = useNavigate();
+  //  const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    //    e.preventDefault();
-    // your login validation here
-    navigate("/dashboard");
-  };
+  // const handleSubmit = (e) => {
+  //   //    e.preventDefault();
+  //   // your login validation here
+  //   navigate("/dashboard");
+  // };
 
   return (
     <>
@@ -58,7 +59,7 @@ export default function LoginForm() {
             </div>
           </div>
           {/* Form */}
-          <form onSubmit={handleSubmit}>
+          <form>
             {/* Email */}
             <div className="mb-3 mb-xl-4">
               <label className="font-20px font-semibold mb-1 d-block line-height-130">
@@ -116,12 +117,11 @@ export default function LoginForm() {
               </a> */}
             </div>
             {/* Submit */}
-            <button
-              
+            <Link to="/dashboard"              
               className="btn btn-primary w-100 btn-h-56 mb-3 mb-4 font-20px"
             >
               Sign In
-            </button>
+            </Link>
             {/* Divider */}
             <div className="d-flex align-items-center mb-4">
               <div className="flex-grow-1 border-top" />
