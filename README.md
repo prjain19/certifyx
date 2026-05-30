@@ -1,16 +1,33 @@
-# React + Vite
+# CertifyX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern digital credential management platform built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Secure Login Interface
+- Dashboard Overview
+- Credential Hub (Card & List View)
+- Credential Details Page
+- User Profile Management
+- Fully Responsive Design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router DOM
+- useState Hook
+- Bootstrap 5
+- SCSS
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://your-vercel-link.vercel.app
+
+## Project Purpose
+
+CertifyX is a modern credential management platform concept designed to help users organize, access, and manage professional and academic credentials through a clean and responsive user interface.
+
+## Author
+
+Priya Jain  
+Senior UI Developer
