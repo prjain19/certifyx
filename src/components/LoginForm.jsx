@@ -117,7 +117,7 @@ export default function LoginForm() {
             </div>
             {/* Submit */}
             <button
-              type="submit"
+              
               className="btn btn-primary w-100 btn-h-56 mb-3 mb-4 font-20px"
             >
               Sign In
