@@ -1,0 +1,118 @@
+/* TYPOGRAPHY */
+
+// font families
+$font-primary: "proxima_novaregular";
+$font-primary-bold: "proxima_novabold";
+$font-medium: "proxima_novamedium";
+$font-extrabold: "proxima_novaextrabold";
+// $font-primary-bold-italic: "google_sansbold_italic";
+$font-primary-italic: "Proxima Nova Rg";
+$font-semibold: "proxima_novasemibold";
+$font-light: "proxima_novalight";
+// $font-medium-italic: "google_sansmedium_italic";
+
+$font-3-regular: "gothambook";
+$font-3-medium: "gothammedium";
+$font-3-bold: "gothambold";
+// $font-3-semibold: "barlow_condensedlight";
+// $font-3-italic: "google_sansitalic";
+
+
+$font-secondary: "Proxima Nova Condensed Regular";
+$font-secondary-medium: "Proxima Nova Condensed Semibold";
+$font-secondary-bold: "Proxima Nova Condensed Bold";
+$font-secondary-black: "gotham_narrowblack";
+$font-secondary-Extrabold:'Proxima Nova Condensed Extrabold';
+$font-secondary-samibold: "Proxima Nova Condensed Semibold";
+// $font-secondary-thin: "barlowthin";
+// $font-secondary-light: "barlowlight";
+
+
+.font-3-regular {
+  font-family: $font-3-regular;
+}
+.font-3-medium {font-family: $font-3-medium !important;
+}
+.font-3-bold {font-family: $font-3-bold;
+}
+// .font-3-semibold{}
+// .font-3-italic {font-family: $font-3-italic;
+// }
+
+.font-primary {
+  font-family: $font-primary !important;
+}
+.font-medium {
+  font-family: $font-medium;font-weight: normal !important;
+}
+.font-bold {
+  font-family: $font-primary-bold !important;font-weight: normal !important;
+}
+.font-semibold,
+.font-semi-bold,
+.fw-semibold {
+  font-family: $font-semibold; font-weight: normal !important;
+}
+.font-light {
+  font-family: $font-light;
+}
+
+
+.font-primary-italic {
+  font-family: $font-primary-italic;
+}
+// .font-medium-italic {
+//   font-family: $font-medium-italic;
+// }
+// .font-bold-italic {
+//   font-family: $font-primary-bold-italic;
+// }
+// .font-extrabold{ font-family: $font-extrabold;}
+
+// .font-secondary-black {
+//   font-family: $font-secondary-black;
+// }
+
+.font-extrabold{ font-family: $font-extrabold;}
+
+.font-secondary {
+  font-family: $font-secondary;
+}
+.font-secondary-medium {
+  font-family: $font-secondary-medium;
+}
+.font-secondary-semobild {
+  font-family: $font-secondary-samibold;
+}
+.font-secondary-extrabold {
+  font-family: $font-secondary-Extrabold;
+}
+
+.font-secondary-bold {
+  font-family: $font-secondary-bold !important;
+}
+// .font-secondary-semi-bold {
+//   font-family: $font-secondary-samibold !important;
+// }
+// .font-secondary-tin {
+//   font-family: $font-secondary-thin;
+// }
+// .font-secondary-light {
+//   font-family: $font-secondary-light;
+// }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary-bold;
+}
+
+strong,
+b {
+  font-weight: normal;
+  font-family: $font-primary-bold;
+}

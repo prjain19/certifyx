@@ -1,0 +1,655 @@
+a,
+header img,
+.Applogo_col {
+  transition: all 0.3s ease;
+}
+
+.line_1 {
+  background: linear-gradient(-270deg, #111827 11.37%, #4eaa84 100%);
+  height: 1px;
+  flex-grow: 1;
+}
+.line_2 {
+  background: linear-gradient(270deg, #111827 11.37%, #4eaa84 100%);
+  height: 1px;
+  flex-grow: 1;
+}
+img {
+  vertical-align: top;
+}
+.bg-111827 {
+  background-color: #111827 !important;
+}
+.container_banner {
+  max-width: 1568px;
+}
+.badge_custom1 {
+  border: 1px solid #000;
+  background: #000 !important;
+}
+.bannerRightCol {
+  top: 20px;
+}
+.text_gredient_1 {
+  background: linear-gradient(90deg, #cb7107 0%, #c11145 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slick-arrow-v2 {
+  .slick-arrow {
+    top: calc(50%);
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50%);
+    background-size: cover !important;
+    background: url(../img/left-arrow-svg2.svg) center center no-repeat;
+
+    &.slick-prev {
+      left: -95px;
+    }
+
+    &.slick-next {
+      background-image: url(../img/right-arrow-svg2.svg);
+      right: -95px;
+    }
+  }
+}
+
+.btn-light {
+  border-radius: 8px;
+  border: 1px solid #dfdfdf;
+  background: #f3f4f6;
+
+  svg {
+    fill: #333333;
+  }
+
+  &:hover {
+    border: 1px solid $color-primary;
+    background: $color-primary;
+    color: #fff;
+    svg {
+      fill: #fff;
+    }
+  }
+}
+
+.bg_size_100_100 {
+  background-size: 100% 100% !important;
+}
+.course-card {
+  border-radius: 20px;
+  border: 1px solid #c7dffb;
+  background: #fff;
+  padding: 30px 30px 35px;
+  border-top: 6px solid #466192 !important;
+  transition: 0.3s;
+}
+.course-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.course-highlight-line {
+  width: 50px;
+  height: 5px;
+  background: #cd3a6a;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+.icon {
+  width: 24px;
+  margin-right: 12px;
+  opacity: 0.8;
+}
+
+.course-card-v2 {
+  border-radius: 10px;
+  border: 1px solid #d1d5db !important;
+  background: linear-gradient(180deg, #fff 0%, #e9f4ff 176.11%);
+}
+
+.icon_01 {
+  min-width: 15px;
+}
+
+.next-intake-badge {
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 60px;
+  background: #fff1dd;
+  font-size: 14px;
+  color: #a1691c;
+  font-family: $font-semibold;
+
+  &.next-intake-badge-grey{
+    background: #F0F0F0;
+  color: #333;
+  }
+}
+.next-intake-badge.open {
+  background: #dcfce7;
+  color: #078947;
+}
+
+.strathmore_logo {
+  img {
+    max-height: 53px;
+    max-width: 80px;
+    width: auto;
+    height: auto;
+  }
+}
+
+.trim_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slick-slide-pt-0 .slick-slide {
+  padding-top: 0 !important;
+}
+
+.icon_weap1 {
+  margin-top: -35px;
+}
+
+.max-w-1250px {
+  max-width: 1250px;
+}
+.graduate_imgCol {
+  margin-top: -72px;
+}
+
+.alert-info {
+  border-radius: 8px;
+  background: #f5faff;
+}
+.max-w-900 {
+  max-width: 900px;
+}
+.bg_size_cover {
+  background-size: cover !important;
+}
+.shadow_1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-checkRadio-box {
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    color: #fff;
+    background: #000;
+    border-color: transparent;
+  }
+}
+
+.loginpage-wrapper {
+  min-height: calc(100vh - 90px);
+}
+
+/* WebKit + Edge (Chromium) */
+@supports (-webkit-appearance: none) {
+  .sortByLabel_n2 {
+    select {
+      text-indent: 75px;
+    }
+  }
+}
+
+@-moz-document url-prefix() {
+  .sortByLabel_n2 {
+    select {
+      text-indent: 40px;
+    }
+  }
+}
+
+.max-w-490 {
+  max-width: 490px;
+}
+.max-w-340 {
+  max-width: 340px;
+}
+
+.custom-pagination ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.custom-pagination li {
+  font-size: 17px;
+  border: 1px solid transparent;
+
+  border-radius: 3px;
+}
+
+.custom-pagination li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.custom-pagination li.disabled {
+  color: #c4c4c4;
+  cursor: default;
+}
+
+.custom-pagination li.active {
+  border: 1px solid $color-secondary;
+  color: $color-secondary;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.custom-pagination li:hover a {
+  color: $color-secondary;
+}
+
+.custom-pagination li.dots {
+  pointer-events: none;
+}
+.UniversityImg {
+  height: 220px;
+}
+.UniversityImgWrap {
+  margin: -30px -30px 0;
+}
+.strathmore_logo2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  left: 25px;
+  bottom: 25px;
+
+  img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+}
+
+.imges-outer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imges-outer img {
+  object-fit: cover;
+  max-width: calc(100% + 30px);
+  min-height: 100%;
+  min-width: calc(100% + 30px);
+  max-height: calc(100% + 30px);
+  width: auto;
+  height: auto !important;
+}
+.next-intake-badge-primary {
+  background: #dbeeff;
+  color: #005097 !important;
+}
+.max-w-880px {
+  max-width: 880px;
+}
+.max-w-870px {
+  max-width: 870px;
+}
+.p-10px {
+  padding: 10px !important;
+}
+.alert-warning-app {
+  border: 1px solid #efde63;
+  background: #fefce8;
+}
+a svg {
+  transition: all 0.3s ease;
+}
+
+.link-white.link-white-hover-secondary-light:hover {
+  color: #a9f2d3;
+
+  svg {
+    fill: #a9f2d3;
+  }
+}
+
+.card_design1 {
+  border-top: 5px solid $color-primary !important;
+
+  .card-header {
+    padding: 19px 30px;
+  }
+  .card-body {
+    padding: 30px 30px;
+  }
+
+  &.border-top-danger {
+    border-top-color: var(--bs-btn-border-color) !important ;
+  }
+}
+.graduation-ceremony {
+  height: 194px;
+}
+.alert-info {
+  border: 1px solid #88adda;
+  background: #eff6ff;
+}
+
+.card_border_color {
+  border-left: 5px solid $color-primary !important;
+
+  &.card_border_color_2 {
+    border-left-color: #a855f7 !important;
+  }
+  &.card_border_color_3 {
+    border-left-color: #a855f7 !important;
+  }
+  &.card_border_color_4 {
+    border-left-color: #54c094 !important;
+  }
+  &.card_border_color_5 {
+    border-left-color: #f97316 !important;
+  }
+  &.card_border_color_6 {
+    border-left-color: #ef4444 !important;
+  }
+  &.card_border_color_7 {
+    border-left-color: #6366f1 !important;
+  }
+  &.card_border_color_8 {
+    border-left-color: #eab308 !important;
+  }
+}
+
+.graduation-venue {
+  height: 450px;
+}
+.border-88ADDA {
+  border-color: #88adda !important;
+}
+.bg-EFF6FF {
+  background-color: #eff6ff !important;
+}
+.bg-DC2626 {
+  background-color: #dc2626 !important;
+}
+.btn-secondary-2 {
+  background: #54c094;
+}
+.p-30px {
+  padding: 30px;
+}
+.text-54C094 {
+  color: #54c094 !important;
+}
+.gap-30px {
+  gap: 30px;
+}
+.QuickNavigationWrap {
+  .QuickNavigation {
+    a {
+      font-size: 18px;
+      font-family: $font-secondary-samibold;
+      color: $color-primary;
+      gap: 7px;
+      border-radius: 7px; flex: 0 0 auto;
+      height: 50px;
+      flex-grow: 1;
+      justify-content: center;
+
+      svg {
+        fill: $color-primary;
+      }
+
+      &:hover,
+      &.active {
+        background-color: $color-primary;
+        color: #fff;
+
+        svg {
+          fill: #fff;
+        }
+      }
+      &.active {
+        font-size: 20px;
+        font-family: $font-secondary-bold;
+      }
+    }
+  }
+
+  &.is-sticky {
+    position: fixed;
+    top: 79px;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 1326px;
+  }
+}
+
+.HighlightsSection {
+  background: linear-gradient(180deg, #f5faff 0%, #fff 100%);
+}
+
+@media (min-width: 1500px) {
+  .slick-arrow-v2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .slick-arrow-v2.slick-arrow-v2-w-46px {
+    .slick-arrow {
+      width: 50px;
+      height: 50px;
+
+      &.slick-prev {
+        left: -70px;
+      }
+
+      &.slick-next {
+        right: -70px;
+      }
+    }
+  }
+}
+@media (max-width: 1599px) {
+  .slick-arrow-v2 .slick-arrow.slick-next {
+    right: -67px;
+  }
+  .slick-arrow-v2 .slick-arrow.slick-prev {
+    left: -67px;
+  }
+}
+@media (max-width: 1499px) {
+  .slick-arrow-v2 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .slick-arrow-v2 .slick-arrow.slick-next {
+    right: 0px;
+  }
+  .slick-arrow-v2 .slick-arrow.slick-prev {
+    left: 0px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .BackDiv {
+    left: 30px !important;
+  }
+}
+@include media($lg) {
+  .bannerRightCol {
+    top: 40px;
+  }
+  .filterCol {
+    position: fixed;z-index: 9;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    .btn {
+      height: 42px;
+    }
+  }
+  .BackDiv {
+    position: static !important;
+  }
+  .card_design1 .card-header {
+    padding: 15px 20px;
+  }
+  .card_design1 .card-body {
+    padding: 20px 20px;
+  }
+  .graduation-venue {
+    height: 300px;
+  }
+  .QuickNavigationWrap.is-sticky{ top: 83px;
+   border-top-left-radius: 0px !important;
+   border-top-right-radius: 0px !important;
+  }
+  .gap-30px {
+	gap: 20px;
+}
+.QuickNavigationWrap .QuickNavigation a {
+  font-size: 16px; height: 42px;
+
+  &.active{ font-size: 16px;}
+}
+}
+@include media($md) {
+  .SimplifyBanner {
+    .font-58px {
+      font-size: 36px;
+    }
+  }
+.info_row2{ margin-left: -86px;}
+.info_row2_section1{
+  > div{ flex:  1;}
+}
+}
+
+@include media($mobile-landscape) {
+  .slick-arrow-v2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .slick-arrow-v2 .slick-arrow {
+    top: inherit;
+    width: 40px;
+    bottom: -34px;
+    height: 40px;
+  }
+  .slick-arrow-v2 .slick-arrow.slick-next {
+    right: calc(50% - 43px);
+  }
+  .slick-arrow-v2 .slick-arrow.slick-prev {
+    left: calc(50% - 43px);
+  }
+  .bannerRightCol {
+    top: 47px;
+    margin-top: -40px;
+  }
+  .formSearch,
+  .topBannerForm {
+    .h-50px {
+      height: 44px !important;
+    }
+  }
+
+  .SimplifyBannerContainer {
+    background-color: $color-secondary;
+    border-radius: 15px;
+    border-top: 8px solid $color-primary;
+  }
+  .SimplifyBanner .font-58px {
+    font-size: 30px;
+  }
+  .btnRow {
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .WelcomeFeature {
+    img {
+      max-width: 40px;
+      height: auto;
+      min-width: 30px;
+    }
+  }
+  .Google_Microsoft_btn {
+    img {
+      max-width: 16px;
+      height: auto;
+    }
+  }
+  .backLink {
+    svg {
+      max-width: 8px;
+      height: auto;
+    }
+  }
+  .topBannerForm {
+    > div {
+      width: 100%;
+    }
+    .top-3 {
+      top: 0;
+    }
+  }
+
+  .strathmore_logo2_detailpage{
+    width:40px;
+  height:40px;
+  }
+  .info_row2 {
+	margin-left: -46px;
+}
+.eventActions {
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+.info_row2_section1{
+  svg{ max-width: 40px; height: auto;}
+}
+.QuickNavigationWrap.is-sticky {
+	top: 55px;
+}
+.DownloadPDFBtn{ min-width: inherit;}
+.graduation-venue {
+	height: 200px;
+}
+.LiveStreamingTitle{ line-height: 110% !important;}
+.container {
+	max-width: 100%;
+	padding-left:15px;
+	padding-right: 15px;
+}
+}

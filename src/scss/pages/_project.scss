@@ -1,0 +1,563 @@
+.searchWrap {
+  .form-control {
+    border-radius: 100px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    padding-right: 50px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  .searchWrapBtn {
+    padding-right: 9px !important;
+    z-index: 9;
+
+    svg {
+      fill: $color-secondary;
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      svg {
+        fill: $color-primary;
+      }
+    }
+  }
+  &.searchWrap_xl {
+    .searchWrapBtn {
+      padding-right: 13px !important;
+    }
+  }
+}
+
+.text-secondary-light {
+  color: $color-secondary-light !important;
+}
+.link-secondary-light {
+  color: $color-secondary-light;
+}
+.link-secondary-light:hover {
+  color: $color-secondary;
+}
+.downloadApp {
+  background: #2a4d7f;
+}
+.downloadApp_Col {
+  background: #1f3a61;
+}
+
+.downloadApp_qr {
+  border-radius: 12.728px;
+  border: 1.909px solid #000;
+}
+.downloadApp_Col_store {
+  border-radius: 10.728px;
+  border: 1.909px solid #000;
+}
+
+.downloadApp_Col {
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+.downloadAppHeading {
+  border: 3px solid #0e2443;
+  background: #143360;
+}
+.downloadAppHeading_wrap {
+  margin-top: -26px;
+}
+img {
+  height: auto;
+}
+
+.glowWrap {
+  position: absolute;
+  // left: -50%;
+  // top: -70%;
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  opacity: 0.1;
+}
+
+.glow-box {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  width: 30%;
+  height: 30%;
+  background: #2f6bff; /* center blue color */
+  border-radius: 40px;
+
+  /* Glow effect */
+  filter: blur(60px);
+  box-shadow:
+    0 0 60px 30px #2f6bff,
+    0 0 120px 60px rgba(47, 107, 255, 0.6),
+    0 0 180px 90px rgba(47, 107, 255, 0.4),
+    0 0 240px 120px rgba(47, 107, 255, 0.25);
+}
+
+.link_01 {
+  margin-top: -35px;
+}
+.logo_symbol {
+  margin-top: -86px;
+}
+.TheCostSection {
+  margin-top: 86px;
+}
+.TheCostSliderItem {
+  border-radius: 25px 25px 0 0;
+  background: linear-gradient(
+    180deg,
+    #fff -83.03%,
+    rgba(255, 255, 255, 0) 82.94%
+  );
+  padding: 15px;
+  .features_box_v03 {
+    background: linear-gradient(180deg, #fff 0%, #c2d5f9 143.57%);
+  }
+}
+
+.TheCostSlider .slick-slide {
+  padding-top: 55px;
+}
+.TheCostSection_v2 {
+  background: #fff !important;
+
+  .TheCostSliderItem {
+    background: linear-gradient(
+      180deg,
+      #d6e4fb -34.8%,
+      rgba(255, 255, 255, 0) 121.54%
+    );
+  }
+
+  .features_box_v03 {
+    background: linear-gradient(180deg, #d0e1ff -19.18%, #fff 132.64%);
+  }
+
+  .slick-slide {
+    padding-bottom: 20px;
+  }
+
+  .slick-slide {
+    margin: 0 30px;
+  }
+  .slick-list {
+    margin: 0 -30px;
+  }
+}
+.text-8FB7FF {
+  color: #8fb7ff !important;
+}
+.border-D8E6FF {
+  border-color: #d8e6ff !important;
+}
+.step_caption {
+  margin-top: -5px;
+}
+
+.CardDevider {
+  position: absolute;
+  right: -10px;
+  top: 0;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.TheCostSection_v3 {
+  background: url(../img/background-2.webp) center top no-repeat !important;
+  background-size: cover !important;
+  .features_box_v03 {
+    background: #fff;
+  }
+  .slick-slide {
+    padding-top: 0;
+  }
+}
+.border-D0DFFF {
+  border-color: #d0dfff !important ;
+}
+.outcome_badge {
+  margin-top: -16px;
+}
+.learneImg {
+  height: 307px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+.slick-slide-g-20px .slick-slide {
+  margin: 0 20px;
+}
+.slick-slide-g-20px .slick-list {
+  margin: 0 -20px;
+}
+
+.slick-slide-g-7px .slick-slide {
+  margin: 0 7px;
+}
+.slick-slide-g-7px .slick-list {
+  margin: 0 -7px;
+}
+
+.slick-slide-g-10px .slick-slide {
+  margin: 0 10px;
+}
+.slick-slide-g-10px .slick-list {
+  margin: 0 -10px;
+}
+
+.slick-slide-g-15px .slick-slide {
+  margin: 0 15px;
+}
+.slick-slide-g-15px .slick-list {
+  margin: 0 -15px;
+}
+
+.iconOutside {
+  margin-left: -18px;
+}
+
+.slidercolumn4_item {
+  padding-top: 77px;
+  height: 100%;
+
+  .features_box {
+    border: 1px solid #d0dfff;
+    background: #eff5ff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  &.slick-slide {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+}
+.imgOuter {
+  padding: 0 20px;
+  margin-top: -135px;
+}
+
+.TheCostSection_v04 {
+  background: url(../img/bg_2.webp) center top no-repeat !important;
+  background-size: cover !important;
+  .TheCostSliderItem {
+    padding: 13px;
+  }
+  .features_box_v03 .features_icon_col_2 {
+    margin-top: -44px;
+  }
+
+  .TheCostSlider .slick-slide {
+    padding-top: 45px;
+  }
+}
+.devider_v1_inner {
+  max-width: 1000px;
+  height: 2px;
+  background: linear-gradient(
+    270deg,
+    rgba(116, 53, 110, 0) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(116, 53, 110, 0) 100%
+  );
+}
+
+.Institutions_slide_col {
+  width: 100%;
+  height: 110px;
+  img {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
+
+.logo_symbol_2 {
+  margin-top: -62px;
+}
+.site_banner {
+  .site_banner_content {
+    background: #922a61;
+  }
+}
+.site_banner_row2 {
+  background: linear-gradient(
+    270deg,
+    rgba(42, 77, 127, 0) -2.73%,
+    #143360 100%
+  );
+}
+.ProofSection_container {
+  border-radius: 25px;
+  padding: 60px;
+  background: url(../img/cabel-bg.webp) center bottom 60px no-repeat #ffefef !important;
+}
+
+.ProofSectionWrap_v2 {
+  .features_icon_col {
+    left: -6px;
+  }
+  .features_box.bg-white {
+    background: #fff;
+  }
+  .features_box {
+    border-width: 1px !important;
+  }
+  .features_row > div {
+    margin-bottom: 14px;
+  }
+
+  .ProofSection_rightcontent .features_row > div {
+    margin-bottom: 10px;
+  }
+}
+.bg-FF2C2C {
+  background-color: #ff2c2c !important;
+}
+.edu_hard {
+  height: 557px;
+  background: linear-gradient(180deg, #ffbcbc 0%, #ffefef 85.83%);
+}
+
+@media (min-width: 1600px) {
+  .bannerBtn {
+    width: calc(100% + 50px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .GettingStartedSection {
+    .row {
+      margin-left: -30px;
+      margin-right: -30px;
+      > div {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+@include media($lg) {
+  .logo_symbol_2 {
+    margin-top: -40px;
+    img {
+      max-width: 80px;
+      height: auto;
+    }
+  }
+  .banner_section {
+    padding-top: 82px;
+
+    &.banner_section_v02 {
+      padding-top: 90px;
+    }
+  }
+  .ProofSection_container {
+    padding: 30px;
+  }
+
+  .logo_symbol {
+    img {
+      max-width: 140px;
+      height: auto;
+    }
+  }
+  .TheCostSection {
+    margin-top: 46px;
+  }
+  .logo_symbol {
+    margin-top: -75px;
+  }
+
+  .TheCostSlider {
+    .slick-arrow {
+      top: calc(50% - 10px);
+    }
+    .slick-arrow.slick-next {
+      right: -53px;
+    }
+    .slick-arrow.slick-prev {
+      left: -53px;
+    }
+  }
+
+  .slidercolumn4 {
+    .slick-arrow {
+      background-color: $color-primary;
+      bottom: 15px;
+      background-size: 8px auto !important;
+      top: inherit;
+
+      width: 34px;
+      height: 34px;
+
+      &.slick-next {
+        right: calc(50% - 40px);
+      }
+      &.slick-prev {
+        left: calc(50% - 40px);
+      }
+    }
+  }
+}
+@include media($md) {
+  .edu_hard {
+    height: 457px;
+  }
+  .learneImg {
+    height: 235px;
+  }
+}
+
+@include media($mobile-landscape) {
+  .searchWrapBtn {
+    svg {
+      max-width: 24px;
+      height: auto;
+    }
+  }
+  .banner_section {
+    padding-top: 55px;
+  }
+  .imageWrapper img {
+    max-width: 300px;
+  }
+
+  .ProofSectionWrap {
+    padding-top: 20px !important;
+  }
+  .ProofSection_container {
+    padding: 20px;
+  }
+  .link_01 {
+    margin-top: -30px;
+    svg {
+      max-width: 38px;
+      height: auto;
+    }
+  }
+  .edu_hard {
+    height: 257px;
+  }
+  .ProofSection_container .features_row {
+    padding-bottom: 0;
+  }
+  .logo_symbol img {
+    max-width: 80px;
+    height: auto;
+  }
+  .logo_symbol {
+    margin-top: -44px;
+  }
+
+  .TheCostSlider {
+    .slick-arrow.slick-next {
+      right: -43px;
+    }
+    .slick-arrow.slick-prev {
+      left: -43px;
+    }
+  }
+  .TheCostSliderItem {
+    padding: 10px;
+  }
+  .TheCostSection .features_box_v03 .features_icon_col_2 {
+    margin-top: -39px;
+  }
+  .TheCostSlider .slick-slide {
+    padding-top: 45px;
+  }
+  .TheCostSection {
+    margin-top: 30px;
+  }
+  .CardDevider {
+    right: 0;
+    left: 0;
+    top: inherit;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 22px;
+    padding: 0 !important;
+    transform: rotate(89deg);
+  }
+  .GettingStartedSection {
+    .col-12 {
+      padding-bottom: 50px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .learneImg {
+    height: 210px;
+  }
+  .TheCostSlider .slick-slide {
+    padding-top: 20px;
+  }
+  .features_box {
+    border-radius: 15px;
+  }
+  .slidercolumn4_item {
+    padding-top: 72px;
+  }
+  .TheCostSection_v04 {
+    .slick-arrow.slick-next {
+      right: -40px;
+    }
+    .slick-arrow.slick-prev {
+      left: -40px;
+    }
+    .slick-arrow {
+      top: calc(50% - 24px);
+    }
+  }
+
+  .TogetherContent {
+    padding: 0 20px;
+    .btn {
+      width: 100%;
+    }
+  }
+  .BusinessSpan1 {
+    margin-top: 15px;
+
+    .btn {
+      svg {
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+  .TheCostSection_v04 .TheCostSlider_Learners .slick-arrow {
+    top: calc(50% - 10px);
+  }
+  .banner_section.banner_section_v02 {
+    padding-top: 70px;
+  }
+  .ProofSection_container {
+    border-radius: 15px;
+  }
+}

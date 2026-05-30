@@ -1,0 +1,68 @@
+.list_app {
+  li {
+    position: relative;
+    padding-left: 13px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 7px;
+      width: 6px;
+      height: 6px;
+      display: inline-block;
+      background: $color-primary;
+      border-radius: 50%;
+    }
+  }
+
+  &.list_app_black_bullet{
+  
+    li{
+        &::before {
+        width:3px;top:8.5px;
+      height:3px; background-color: $color-default;
+    }
+    }
+  }
+
+  &.list_app_li_bottom_margin {
+    li:not(:last-child) {
+      padding-bottom: 10px;
+    }
+  }
+
+  &.list_app_tick {
+    li {
+      padding-left:28px;
+      line-height: 150%;
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &::before {
+        background: url(../img/check-circle.svg) center top no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 5px;
+      }
+    }
+    &.list_app_tick_16px {
+      li {  padding-left: 25px;
+        &::before {
+          width: 16px;
+          background-size: 100% 100%;
+          height: 16px;
+          top: 2px;
+        
+        }
+      }
+    }
+  }
+}
+
+@include media($mobile-landscape) {
+.list_app.list_app_tick li::before{
+  top: 3px;
+}
+}

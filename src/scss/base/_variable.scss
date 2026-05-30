@@ -1,0 +1,55 @@
+:root,[data-bs-theme=light] {
+    --bs-border-color:#CECECE;
+}
+
+$color-default:#000;
+$color-default-light:#4A4A4A;
+$color-primary: #000;
+$color-primary-light: #F7FFE1;
+$color-primary-dark: #143360;
+$color-secondary:#fd5938;
+$color-secondary-dark:#922A61;
+$color-secondary-light:#FF6194;
+$color-tertiary:#01CDD1;
+$color-light:#F5F5F5;
+$color-grey: #7D7D7D;
+$color-light-blue :#EBFCFF;
+$color-danger:#EF4444;
+$color-warn : #FF832B;
+
+$color-green: #549E00;
+$color-green-dark:#4D9212;
+$color-green2:#3C9B4C;
+$color-blue : #163C69;
+
+
+$color-orange:#E36715;
+$color-danger-light:#FFF3F3;
+$color-white: #ffffff;
+$color-off-white:#F5F5F5;
+$color-black: #000000;
+
+$color-grey1: #707070;
+$color-grey-light:#E9E9E9;
+$color-grey-light-2:#EBEBEB;
+$color-7D7D7D : #7D7D7D;
+$color-grey2: #999999;
+$color-dashboard: #C3DEE6;
+$color-footer:#89BECF;
+
+
+$grey-light :#DBDBDB ;
+$grey-light2 :#878787 ;
+
+
+
+/*Breakpoints for responsive*/
+$xxxs: '320px';
+$xxs: '375px';
+$xs: '480px';
+$sm: '576px';
+$mobile-landscape: '767px';
+$md: '992px';
+$lg: '1199px';
+$xl: '1400px';
+$xxl: '1440px'
